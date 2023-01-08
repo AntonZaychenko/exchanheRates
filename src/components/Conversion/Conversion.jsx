@@ -16,7 +16,7 @@ export const Conversion = () => {
 	  
 	  const usd = exchangeRates.find(option => option.cc === 'USD')
       const eur = exchangeRates.find(option => option.cc === 'EUR')
-	//   console.log( usd === undefined ? ' ' : usd.rate)
+
     return (
         <main className={s.main}>
             <div className={s.content}>
@@ -55,7 +55,8 @@ export const Conversion = () => {
 									<input
 										id="result"
 										type="number"
-										className={s.form_control}                                        																				
+										className={s.form_control}
+										disabled                                        																				
 									/>
 							</div>
 						</div>
