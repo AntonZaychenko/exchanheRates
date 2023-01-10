@@ -55,7 +55,7 @@ export const Conversion = () => {
 									<input
 										id="result"
 										type="number"
-										className={s.form_control}
+										className={[s.form_control, s.test].join(' ')}
 										disabled                                        																				
 									/>
 							</div>
