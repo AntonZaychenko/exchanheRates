@@ -3,13 +3,13 @@ let currencyGive = 'UAH'
      
 export function onClick(e) {
     currency = e.target.value
-    // Clear()
+    Clear()
     return currency
 }
 
 export function onClickGive(e) {
     currencyGive = e.target.value
-    // Clear()    
+    Clear()    
     return currencyGive
 }
 
