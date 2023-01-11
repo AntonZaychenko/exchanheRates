@@ -3,13 +3,13 @@ let currencyGive = 'UAH'
      
 export function onClick(e) {
     currency = e.target.value
-    Clear()
+    // Clear()
     return currency
 }
 
 export function onClickGive(e) {
     currencyGive = e.target.value
-    Clear()    
+    // Clear()    
     return currencyGive
 }
 
@@ -49,9 +49,9 @@ export function Change ( usd, eur) {
     const total = input.value / test
     result.value = total.toFixed(2)
 }
-function Clear () {
-    const input = document.querySelector('#input')
-    const result = document.querySelector('#result')
-    input.value = ''
-    result.value= ''
-}
+// function Clear () {
+//     const input = document.querySelector('#input')
+//     const result = document.querySelector('#result')
+//     input.value = ''
+//     result.value= ''
+// }
